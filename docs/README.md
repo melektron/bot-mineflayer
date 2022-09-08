@@ -1,3 +1,14 @@
+# Bot Mineflayer
+
+Bot Mineflayer works like regular Mineflayer but uses the custom minecraft protocol fork ```melektron/bot-minecraft-protocol``` in order to bypass LiveOverflow's "human player detection".
+
+Other than that it can be used as a drop-in replacement to regular Mineflayer, installed using
+```bash
+npm install git://github.com/melektron/bot-mineflayer.git
+```
+
+Original README.md:
+
 # Mineflayer
 
 [![NPM version](https://img.shields.io/npm/v/mineflayer.svg?color=success&label=npm%20package&logo=npm)](https://www.npmjs.com/package/mineflayer)
